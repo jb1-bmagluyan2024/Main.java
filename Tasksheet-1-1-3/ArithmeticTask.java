@@ -1,22 +1,10 @@
 public class Main {
     public static void main(String[] args) {
+        int check_number=10;
+        String message;
 
-        int result = 1 + 2; // result is now 3
-        System.out.println(result);
-
-        result = result - 1; // result is now 2
-        System.out.println(result);
-
-        result = result * 2; // result is now 4
-        System.out.println(result);
-
-        result = result / 2; // result is now 2
-        System.out.println(result);
-
-        result = result + 8; // result is now 10
-        System.out.println(result);
-        result = result % 7; // result is now 3
-        System.out.println(result);
-
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(message = (i%2==0) ? i+" is even number" : i+" is odd number");
+        }
     }
 }
